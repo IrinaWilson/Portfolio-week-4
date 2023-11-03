@@ -147,9 +147,8 @@ h2 {
     text-align: center;
     font-size: 15px;
   }
-
-  .container a {
-    display: flex;
-    justify-content: center;
+  .primary-button {
+    padding: 18px 30px;
+    width: 200px;
   }
 }
