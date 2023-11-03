@@ -48,7 +48,7 @@ h2 {
   color: #000;
 
   font-family: "Playfair Display", serif;
-  font-size: 64px;
+  font-size: 55px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -90,7 +90,10 @@ h2 {
 .btn-weather-project {
   margin: 20px 0;
 }
-.about-hobby {
+
+.about-hobby,
+.about-weather,
+.about-clock {
   color: rgba(39, 33, 66, 0.7);
 
   font-family: "Poppins", sans-serif;
@@ -105,14 +108,14 @@ h2 {
   margin-bottom: 100px;
 }
 .project-description {
-  padding: 120px 55px;
+  padding: 0 55px;
 }
 
 .weather-image-project {
-  padding-left: 55px;
+  padding: 2px 55px;
 }
 .project-clock-description {
-  padding: 85px 55px;
+  padding: 0 55px;
 }
 @media (max-width: 900px) {
   .hero {
@@ -136,7 +139,7 @@ h2 {
 
   .projects {
     font-size: 13px;
-    margin-top: 330px;
+    margin-top: 200px;
     margin-bottom: 75px;
   }
   h2 {
@@ -150,5 +153,14 @@ h2 {
   .primary-button {
     padding: 18px 30px;
     width: 200px;
+  }
+
+  .weather-primary-button {
+    padding: 18px 40px;
+    width: 200px;
+  }
+  .hobby-bottom,
+  .weather-bottom {
+    margin-bottom: 15px;
   }
 }
