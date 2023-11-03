@@ -157,10 +157,14 @@ h2 {
 
   .weather-primary-button {
     padding: 18px 40px;
+    margin-left: 41px;
     width: 200px;
   }
   .hobby-bottom,
   .weather-bottom {
     margin-bottom: 15px;
+  }
+  .about-weather {
+    margin: 35px 35px;
   }
 }
