@@ -1,6 +1,6 @@
 .hero {
   margin: 160px 0;
-  text-align: center;
+  margin-bottom: 150px 0;
 }
 .hero p {
   color: #272142;
@@ -42,4 +42,114 @@ h3 {
 }
 .btn-get-started:hover {
   border-color: #6c63ff;
+  color: #6c63ff;
+}
+h2 {
+  color: #000;
+
+  font-family: "Playfair Display", serif;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.projects {
+  color: #272142;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 450px;
+  margin-bottom: 127px;
+}
+
+.btn-hobby-project,
+.btn-clock-project,
+.btn-weather-project {
+  color: #6c63ff;
+  margin: 55px 0;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  width: 200px;
+  padding: 18px 30px;
+  border-radius: 4px;
+  border: 1px solid #6c63ff;
+}
+.btn-hobby-project:hover,
+.btn-clock-project:hover,
+.btn-weather-project:hover {
+  color: white;
+  background-color: #6c63ff;
+}
+
+.btn-weather-project {
+  margin: 20px 0;
+}
+.about-hobby {
+  color: rgba(39, 33, 66, 0.7);
+
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  opacity: 0.7;
+}
+.hobby-bottom,
+.weather-bottom {
+  margin-bottom: 100px;
+}
+.project-description {
+  padding: 120px 55px;
+}
+
+.weather-image-project {
+  padding-left: 55px;
+}
+.project-clock-description {
+  padding: 85px 55px;
+}
+@media (max-width: 900px) {
+  .hero {
+    margin: 160px 0;
+  }
+  .hero p,
+  h1,
+  h3 {
+    text-align: center;
+  }
+  .hero p {
+    font-size: 26px;
+  }
+
+  .hero h1 {
+    font-size: 40px;
+  }
+  .hero h3 {
+    font-size: 15px;
+  }
+
+  .projects {
+    font-size: 13px;
+    margin-top: 330px;
+    margin-bottom: 75px;
+  }
+  h2 {
+    font-size: 35px;
+    text-align: center;
+  }
+  .container p {
+    text-align: center;
+    font-size: 15px;
+  }
+
+  .container a {
+    display: flex;
+    justify-content: center;
+  }
 }
