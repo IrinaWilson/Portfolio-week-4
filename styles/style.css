@@ -124,7 +124,7 @@ h2 {
 
   font-family: "Playfair Display", serif;
   font-size: 64px;
-  font-style: normal;
+
   font-weight: 700;
   line-height: normal;
 }
@@ -148,12 +148,35 @@ h2 {
   line-height: 30px;
 }
 
-.hero-second-page {
+.hero-second-page,
+.projects-page {
   padding: 160px 20px;
 }
 .about-section-content {
   margin: 30px;
 }
+.name-project {
+  color: #000;
+
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+
+  font-weight: 700;
+  line-height: normal;
+}
+
+.built-with {
+  color: rgba(39, 33, 66, 0.7);
+
+  text-align: center;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
 @media (max-width: 900px) {
   .hero {
     margin: 160px, 0;
@@ -213,7 +236,8 @@ h2 {
     padding: 0;
   }
 
-  .hero-second-page h1 {
+  .hero-second-page h1,
+  .projects-page h1 {
     font-size: 40px;
   }
 }
