@@ -117,10 +117,47 @@ h2 {
 .project-clock-description {
   padding: 0 55px;
 }
+
+.hero-second-page h1 {
+  color: #000;
+
+  font-family: "Playfair Display", serif;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.hero-second-page h2 {
+  color: #272142;
+
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.hero-second-page p {
+  color: rgba(39, 33, 66, 0.7);
+
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.hero-second-page {
+  padding: 160px 20px;
+}
+.about-section-content {
+  margin: 30px;
+}
 @media (max-width: 900px) {
   .hero {
-    margin: 160px 0;
+    margin: 160px, 0;
   }
+
   .hero p,
   h1,
   h3 {
@@ -146,10 +183,12 @@ h2 {
     font-size: 35px;
     text-align: center;
   }
-  .container p {
+
+  .main-page p {
     text-align: center;
     font-size: 15px;
   }
+
   .primary-button {
     padding: 18px 30px;
     width: 200px;
@@ -166,5 +205,14 @@ h2 {
   }
   .about-weather {
     margin: 35px 35px;
+  }
+
+  .hero-second-page {
+    text-align: center;
+    padding: 0;
+  }
+
+  .hero-second-page h1 {
+    font-size: 40px;
   }
 }
