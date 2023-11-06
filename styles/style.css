@@ -118,7 +118,8 @@ h2 {
   padding: 0 55px;
 }
 
-.hero-second-page h1 {
+.hero-second-page h1,
+.projects-page h1 {
   color: #000;
 
   font-family: "Playfair Display", serif;
