@@ -193,8 +193,7 @@ h2 {
 .contact-me-inner {
   background-color: #f9f7fe;
   border-radius: 20px;
-  width: 1160px;
-  height: 200px;
+
   padding-top: 49px;
   padding-left: 119px;
 }
@@ -266,5 +265,22 @@ h2 {
   .hero-second-page h1,
   .projects-page h1 {
     font-size: 40px;
+  }
+
+  .contact-me-btn,
+  .contact-me-inner {
+    padding-left: 50px;
+  }
+  .contact-me-inner h2 {
+    text-align: center;
+    font-size: 25px;
+  }
+  .contact-me h1 {
+    font-size: 35px;
+    text-align: center;
+  }
+  .contact-me-inner p {
+    text-align: center;
+    font-size: 15px;
   }
 }
