@@ -150,11 +150,8 @@ h2 {
   line-height: 30px;
 }
 
+.projects-page,
 .contact-me {
-  padding: 160px 20px;
-}
-
-.projects-page {
   padding: 100px 20px;
 }
 .hero-second-page {
