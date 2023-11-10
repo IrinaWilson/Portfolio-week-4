@@ -152,7 +152,7 @@ h2 {
 
 .projects-page,
 .contact-me {
-  padding: 100px 20px;
+  padding: 90px 20px;
 }
 .hero-second-page {
   padding: 70px;
@@ -262,6 +262,9 @@ footer .social-links a:hover {
   background-color: #033991;
 }
 
+.sourced-link a {
+  color: #033991;
+}
 @media (max-width: 900px) {
   .hero {
     margin: 160px, 0;
