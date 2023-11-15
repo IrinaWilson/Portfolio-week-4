@@ -71,8 +71,8 @@ h2 {
 .btn-hobby-project,
 .btn-clock-project,
 .btn-weather-project {
-  background-color: grey;
-  color: white;
+  background-color: white;
+  color: #2a6a2a;
   margin: 55px 0;
   text-align: center;
   font-family: "Poppins", sans-serif;
@@ -83,13 +83,13 @@ h2 {
   width: 200px;
   padding: 18px 30px;
   border-radius: 4px;
-  border: 1px solid grey;
+  border: 1px solid white;
 }
 .btn-hobby-project:hover,
 .btn-clock-project:hover,
 .btn-weather-project:hover {
-  color: #272142;
-  background-color: white;
+  color: white;
+  background-color: #a2f2ad;
 }
 
 .btn-weather-project {
@@ -193,7 +193,7 @@ h2 {
 }
 
 .contact-me h2 {
-  color: black;
+  color: #2a6a2a;
   font-family: "Playfair Display", serif;
   font-size: 48px;
   font-style: normal;
@@ -262,7 +262,7 @@ footer {
 }
 
 .email-link a {
-  color: #000;
+  color: white;
   text-align: center;
   font-family: "Poppins", sans-serif;
   font-size: 24px;
@@ -270,9 +270,13 @@ footer {
   font-weight: 500;
 }
 
+.email-link a:hover {
+  color: #a2f2ad;
+}
+
 footer .social-links a {
   margin: 0 20px;
-  color: #033991;
+  color: #2a6a2a;
   font-size: 18px;
   background-color: #f9f7fe;
   padding: 10px 14px;
@@ -282,11 +286,11 @@ footer .social-links a {
 
 footer .social-links a:hover {
   color: white;
-  background-color: #033991;
+  background-color: #a1a6b0;
 }
 
 .sourced-link a {
-  color: #033991;
+  color: #a2f2ad;
 }
 
 .skillH {
