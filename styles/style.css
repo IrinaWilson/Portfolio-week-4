@@ -108,6 +108,13 @@ h2 {
   line-height: 30px;
   opacity: 0.7;
 }
+.main-page img {
+  transition: all 150ms ease-in-out;
+}
+
+.main-page img:hover {
+  transform: scale(1.1);
+}
 .hobby-bottom,
 .weather-bottom {
   margin-bottom: 100px;
@@ -195,14 +202,25 @@ h2 {
 }
 
 .contact-me-inner {
-  background-color: #f9f7fe;
+  background-color: rgba(255, 255, 255, 0.4);
   border-radius: 20px;
-
   padding-top: 49px;
   padding-left: 119px;
 }
 .contact-me-btn {
   padding-left: 200px;
+}
+.btn-get-contact {
+  color: white;
+  border-radius: 4px;
+  background-color: #2a6a2a;
+  padding: 18px 30px;
+  width: 200px;
+}
+
+.btn-get-contact:hover {
+  color: #272142;
+  background-color: #a2f2ad;
 }
 .get-in-touch {
   margin-bottom: 150px;
