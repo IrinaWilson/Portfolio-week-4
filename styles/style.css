@@ -140,11 +140,17 @@ h2 {
 }
 
 .hero-second-page h1,
-.projects-page h1,
-.contact-me h1 {
+.projects-page h1 {
   color: white;
   font-family: "Playfair Display", serif;
   font-size: 64px;
+  font-weight: 700;
+  line-height: normal;
+}
+.get-in-touch {
+  color: white;
+  font-family: "Playfair Display", serif;
+  font-size: 52px;
   font-weight: 700;
   line-height: normal;
 }
@@ -159,7 +165,7 @@ h2 {
 }
 
 .projects-page img:hover {
-  transform: scale(1.3);
+  transform: scale(1.2);
 }
 
 .weather-scale img:hover {
@@ -228,7 +234,9 @@ h2 {
   background-color: rgba(255, 255, 255, 0.4);
   border-radius: 20px;
   padding-top: 49px;
+  padding-bottom: 49px;
   padding-left: 119px;
+  margin-bottom: 50px;
 }
 .contact-me-btn {
   padding-left: 200px;
@@ -245,10 +253,13 @@ h2 {
   color: #272142;
   background-color: #a2f2ad;
 }
-.get-in-touch {
-  margin-bottom: 150px;
-}
 
+.contact-me-box {
+  background: rgb(255, 255, 255, 0.4);
+  margin: 30px;
+  border-radius: 20px;
+  margin-bottom: 60px;
+}
 nav {
   padding: 25px 0;
 }
@@ -389,7 +400,8 @@ footer .social-links a:hover {
     margin: 35px 35px;
   }
 
-  .hero-second-page {
+  .hero-second-page,
+  .sourced-link {
     text-align: center;
     padding: 0;
   }
