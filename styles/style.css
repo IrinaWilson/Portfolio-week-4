@@ -231,7 +231,7 @@ h2 {
 }
 
 .contact-me-inner {
-  background-color: rgba(255, 255, 255, 0.4);
+  background-color: rgba(61, 143, 67, 0.2);
   border-radius: 20px;
   padding-top: 49px;
   padding-bottom: 49px;
@@ -285,11 +285,19 @@ footer a:hover {
   transition: all 100ms ease-in-out;
 }
 
-nav a:hover,
 nav li.active a {
   color: #a0a6b1;
-  text-decoration: underline;
+  padding: 5px 14px;
+  border-radius: 15px;
+  background-color: white;
   transition: all 100ms ease-in-out;
+}
+
+nav a:hover {
+  color: white;
+  background-color: #97d297;
+  padding: 5px 14px;
+  border-radius: 15px;
 }
 
 footer {
