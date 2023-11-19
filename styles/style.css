@@ -231,6 +231,15 @@ h2 {
 }
 
 .contact-me-inner {
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 20px;
+  padding-top: 49px;
+  padding-bottom: 49px;
+  padding-left: 119px;
+  margin-bottom: 50px;
+}
+
+.contact-me-inner-contactPage {
   background-color: rgba(61, 143, 67, 0.2);
   border-radius: 20px;
   padding-top: 49px;
@@ -434,6 +443,21 @@ footer .social-links a:hover {
   .contact-me-inner p {
     text-align: center;
     font-size: 15px;
+  }
+  .contact-me-inner-contactPage {
+    padding-left: 10px;
+  }
+
+  .contact-me-inner-contactPage p {
+    text-align: center;
+  }
+
+  .contact-me-inner-contactPage a {
+    display: block;
+    text-align: center;
+  }
+  .contact-me-inner-contactPage img {
+    display: none;
   }
   .logo {
     max-height: 30px;
